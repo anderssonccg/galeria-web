@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;             
+  height: 100vh;
 }
 
 .navbar {
@@ -21,10 +21,16 @@ body {
   padding: 0px 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: sticky;
   top: 0;
   box-shadow: 0 0px 5px 0 gray;
+}
+
+.nav-title {
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
 }
 
 img {
@@ -58,8 +64,8 @@ img {
 
 .product-card {
   background: white;
-  width: 15%;
-  box-shadow: 0 4px 4px 4px rgb(0 0 0 / .2);
+  width: 20%;
+  box-shadow: 0 4px 4px 4px rgb(0 0 0 / 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,7 +85,7 @@ img {
 
 .product-name {
   color: black;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .button-container-p {
@@ -120,7 +126,7 @@ li a {
   color: black;
 }
 
-li a:hover{
+li a:hover {
   color: white;
   background-color: black;
   font-weight: 500;
@@ -136,7 +142,7 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   color: black;
   background-color: white;
   outline: 1px solid black;
@@ -154,8 +160,8 @@ footer p {
   margin-left: 10px;
 }
 
-.profile-card{
-  width: 15%;
+.profile-card {
+  width: 20%;
   outline: 3px solid blueviolet;
   height: auto;
   display: flex;
@@ -165,7 +171,7 @@ footer p {
   font-size: 12px;
 }
 
-.info{
+.info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -175,18 +181,18 @@ footer p {
   padding: 20px 30px;
 }
 
-.info h2{
+.info h2 {
   color: blueviolet;
 }
 
-.profile-pic{
+.profile-pic {
   height: 100px;
   border-radius: 100%;
   padding: 2px;
   outline: 2px solid blueviolet;
 }
 
-.button-container{
+.button-container {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -194,39 +200,39 @@ footer p {
   padding: 0px 30px 15px;
 }
 
-.button-card{
+.button-card {
   height: 35px;
   border-radius: 5px;
   background: blueviolet;
   color: white;
 }
 
-.button-card:first-child{
+.button-card:first-child {
   outline: 1px solid blueviolet;
   background: white;
   color: blueviolet;
 }
 
-.button-card:hover{
+.button-card:hover {
   background: white;
   color: blueviolet;
   outline: 1px solid blueviolet;
 }
 
-.button-card:first-child:hover{
+.button-card:first-child:hover {
   background: blueviolet;
   color: white;
 }
 
-.fa-star{
+.fa-star {
   color: blueviolet;
 }
 
 @media (max-width: 1100px) {
-  .section{
+  .section {
     flex-direction: column;
   }
-  img{
+  img {
     height: 60%;
   }
 }
