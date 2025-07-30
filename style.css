@@ -1,7 +1,7 @@
 * {
   text-decoration: none;
   margin: 0;
-  font-family: "Space Mono", monospace;
+  font-family: "Roboto", monospace;
   box-sizing: border-box;
 }
 
@@ -99,6 +99,74 @@ footer {
 
 footer p {
   margin-left: 10px;
+}
+
+.profile-card{
+  width: 15%;
+  outline: 3px solid blueviolet;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 20px 30px;
+}
+
+.info h2{
+  color: blueviolet;
+}
+
+.profile-pic{
+  height: 100px;
+  border-radius: 100%;
+  padding: 2px;
+  outline: 2px solid blueviolet;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0px 30px 15px;
+}
+
+.button-card{
+  height: 35px;
+  border-radius: 5px;
+  background: blueviolet;
+  color: white;
+}
+
+.button-card:first-child{
+  outline: 1px solid blueviolet;
+  background: white;
+  color: blueviolet;
+}
+
+.button-card:hover{
+  background: white;
+  color: blueviolet;
+  outline: 1px solid blueviolet;
+}
+
+.button-card:first-child:hover{
+  background: blueviolet;
+  color: white;
+}
+
+.fa-star{
+  color: blueviolet;
 }
 
 @media (max-width: 1100px) {
